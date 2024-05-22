@@ -1,0 +1,185 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 1440px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+}
+
+#safe {
+    width: 250px;
+    margin-right: 15px;
+}
+
+#by {
+    margin: 36px 0 0 0;
+    font-size: 1.5em;
+}
+
+#flex {
+    width: 130px;
+    margin-left: 15px;
+    margin-right: 70px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+#nav1,
+#nav2 {
+    font-family: "arial black";
+    font-size: 1.2em;
+    padding: 0 20px 0 20px;
+}
+
+#nav2 {
+    border-left: solid 0.2em black;
+}
+
+#btn-promo {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    background-color: #f63443;
+    border-radius: 15px;
+    border: none;
+    padding: 0 30px 0 30px;
+    margin-left: 15px;
+    height: 50px;
+
+}
+
+/* ------------PARTIE BLOC 1 ----------- */
+#bloc1 {
+    background: url(images/FOND_SAFE_ON.jpg);
+    background-size: cover;
+}
+
+h1 {
+    font-family: "Arial black";
+    font-size: 2.5em;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+
+
+#title {
+    text-align: center;
+}
+
+#video-form {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 20px 0;
+}
+
+#video-bloc {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px 0 0 30px;
+    width: 60%;
+}
+
+#video {
+    width: 50%;
+    height: auto;
+}
+
+form {
+    background-color: white;
+    border-radius: 0 30px 30px 0;
+    border-left: solid #f63443 0.3rem;
+    width: 30%;
+    padding: 0 10px;
+    text-align: center;
+}
+
+form p {
+    font-family: "arial black"
+}
+
+#red {
+    color: #dc3e25;
+    font-family: "arial black"
+}
+
+#adress {
+    padding: 0;
+}
+
+.form-item {
+    width: 100%;
+}
+
+input {
+    width: 45%;
+    margin: 5px 0;
+    height: 30px;
+}
+
+.form-item-checkbox {
+    display: flex;
+    margin-top: 10px;
+}
+
+label {
+    font-size: 0.7rem;
+    text-align: justify;
+    padding: 10px 0 0 10px;
+}
+
+.little {
+    font-size: 0.6rem;
+    text-align: start;
+}
+
+#promo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: linear-gradient(.25turn, #dc3e25, #f63443, #db0566);
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+/* ------------PARTIE BLOC 2 ----------- */
+#bloc2 {
+    display: flex;
+}
+
+/* ------------PARTIE BLOC 3 ----------- */
+#bloc3 {
+    background: url(images/VISUEL_SAFE_ON.png);
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
