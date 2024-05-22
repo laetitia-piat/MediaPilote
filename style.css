@@ -317,12 +317,22 @@ label {
 
 #form2 {
     color: white;
+    padding-top: 20px;
     width: 70%;
     margin: auto;
 }
 
+#form2 h2 {
+    text-align: start;
+}
+
 #form2 .form-item {
     margin-bottom: 10px;
+    width: 100%;
+}
+
+#form2 .form-item-checkbox {
+    width: 100%;
 }
 
 #form2 input {
@@ -330,10 +340,10 @@ label {
     font-style: italic;
     padding-left: 10px;
     border-radius: 5px;
+    height: 35px;
 }
 
 .little2 {
-    width: 80%;
     font-size: 0.8rem;
     text-align: start;
     margin: 20px auto;
@@ -355,7 +365,65 @@ label {
 
 /*------------PARTIE FOOTER -------------*/
 footer {
-    display: flex;
     background-color: black;
     color: white;
+}
+
+#footer-bloc1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#flex-white {
+    max-width: 130px;
+}
+
+#connect a {
+    color: white;
+    font-weight: 800;
+    font-size: 1.2em;
+
+}
+
+#pointeur {
+    max-width: 20px;
+    position: relative;
+    top: 30px;
+    left: 130px;
+}
+
+#link {
+    display: flex;
+    margin-top: 15px;
+}
+
+#link p {
+    font-style: italic;
+    margin-right: 20px;
+}
+
+#link img {
+    max-width: 30px;
+    margin: 0 5px 0 5px;
+}
+
+.gray {
+    color: gray;
+}
+
+#footer-bloc2 {
+    width: 95%;
+    color: gray;
+    border-top: solid gray 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.7em;
+    padding-bottom: 20px;
+    margin: 20px auto 0 auto;
+}
+
+#footer-bloc2 a {
+    color: gray;
+    text-decoration: underline;
 }
