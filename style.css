@@ -252,6 +252,57 @@ label {
     justify-content: space-around;
 }
 
+#price {
+    width: 50%;
+}
+
+#price img {
+    max-width: 200px;
+    position: relative;
+    left: 60px;
+    top: 150px;
+}
+
+#design {
+    width: 50%;
+    margin-left: 40px;
+}
+
+#bloc3-design-title {
+    display: flex;
+    margin-top: 40px;
+}
+
+#new {
+    max-width: 150px;
+    margin-left: 40px;
+}
+
+#bloc3-design-description {
+    background: url(images/FOND_HEXAGONES.png);
+    background-size: cover;
+}
+
+#bloc3-design-description hr {
+    width: 10%;
+    margin: 0 auto 0 0;
+}
+
+#bloc3-design-description p {
+    font-size: 1.3em;
+    margin: 0 0 15px 0;
+}
+
+#bloc3-design-description #red {
+    font-size: 1.4em;
+}
+
+.title-bloc3 {
+    font-family: "arial black";
+    font-size: 1.9em;
+    margin: 15px 0 0 0;
+}
+
 /* ------------PARTIE BLOC 4 ----------- */
 #bloc4 {
     background-color: black;
