@@ -233,7 +233,7 @@ label {
 
 }
 
-#bloc2-button {
+.bloc2-button {
     color: #f63443;
     font-weight: bold;
     font-size: 1em;
@@ -243,6 +243,20 @@ label {
     border: solid 0.1em #f63443;
     margin-bottom: 30px;
     padding: 10px 40px;
+}
+
+/* ----------PARTIE BLOC POP UP----------- */
+#pop-up {
+    position: fixed;
+    top: 40vh;
+    left: 50vh;
+    opacity: 0;
+    width: 50%;
+    margin: auto;
+    border: solid 0.2em #f63443;
+    background: url(images/FOND_SAFE_ON.jpg);
+    background-size: cover;
+    padding: 10px;
 }
 
 /* ------------PARTIE BLOC 3 ----------- */
@@ -371,7 +385,8 @@ footer {
 
 #footer-bloc1 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding-top: 30px;
 }
 
 #flex-white {
