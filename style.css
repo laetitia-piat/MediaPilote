@@ -13,6 +13,7 @@ a {
     display: flex;
 }
 
+/* ------------PARTIE HEADER----------- */
 header {
     display: flex;
     align-items: center;
@@ -21,7 +22,7 @@ header {
 }
 
 #safe {
-    width: 250px;
+    max-width: 250px;
     margin-right: 15px;
 }
 
@@ -31,9 +32,9 @@ header {
 }
 
 #flex {
-    width: 130px;
+    max-width: 130px;
     margin-left: 15px;
-    margin-right: 70px;
+    margin-right: 90px;
 }
 
 nav {
@@ -43,8 +44,8 @@ nav {
 
 #nav1,
 #nav2 {
-    font-family: "arial black";
     font-size: 1.2em;
+    font-weight: bold;
     padding: 0 20px 0 20px;
 }
 
@@ -59,9 +60,8 @@ nav {
     background-color: #f63443;
     border-radius: 15px;
     border: none;
-    padding: 0 30px 0 30px;
+    padding: 10px 25px 10px 25px;
     margin-left: 15px;
-    height: 50px;
 
 }
 
@@ -73,13 +73,17 @@ nav {
 
 h1 {
     font-family: "Arial black";
-    font-size: 2.5em;
+    font-size: 3em;
     text-align: center;
     margin: 10px 0 0 0;
+    padding-top: 30px;
 }
 
 #title {
     text-align: center;
+    font-size: 1.5em;
+    margin-top: 5px;
+    letter-spacing: 1px;
 }
 
 #video-form {
@@ -87,6 +91,7 @@ h1 {
     justify-content: center;
     margin: auto;
     padding: 20px 0;
+    width: 90%;
 }
 
 #video-bloc {
@@ -107,33 +112,44 @@ h1 {
     background-color: white;
     border-radius: 0 30px 30px 0;
     border-left: solid #f63443 0.3rem;
-    width: 30%;
+    width: 40%;
     padding: 0 10px;
     text-align: center;
 }
 
 #red {
-    color: #dc3e25;
+    color: #f63443;
     font-family: "arial black"
 }
 
 #adress {
-    padding: 0;
-}
-
-.form-item {
     width: 100%;
 }
 
+.form-item {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    color: #2e2e2e;
+}
+
 input {
-    width: 45%;
+    width: 47%;
     margin: 5px 0;
     height: 30px;
 }
 
+#checkbox {
+    width: 5%;
+}
+
 .form-item-checkbox {
+    width: 80%;
     display: flex;
     margin-top: 10px;
+    margin: auto;
 }
 
 label {
@@ -143,16 +159,39 @@ label {
 }
 
 .little {
+    width: 80%;
     font-size: 0.6rem;
     text-align: start;
+    margin: 20px auto;
 }
 
+#form1 #btn-promo {
+    margin: 10px 0 30px 0;
+    font-size: 1em;
+    letter-spacing: 0.7px;
+}
+
+/* ------------PARTIE BLOC PROMO----------- */
 #promo {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     background: linear-gradient(.25turn, #dc3e25, #f63443, #db0566);
+}
+
+#promo img {
+    max-width: 250px;
+    margin: 40px 40px 40px 0;
+}
+
+#promo h2 {
+    font-size: 2em;
+    font-style: italic;
+    letter-spacing: 1px;
+    border-bottom: white solid 0.1em;
+    padding-bottom: 15px;
 }
 
 #underline {
@@ -195,6 +234,7 @@ label {
 #bloc2-button {
     color: #f63443;
     font-weight: bold;
+    font-size: 1em;
     letter-spacing: 1px;
     border-radius: 15px;
     background-color: white;
