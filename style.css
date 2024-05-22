@@ -4,6 +4,7 @@
 
 body {
     max-width: 1440px;
+    margin: 0;
 }
 
 a {
@@ -77,8 +78,6 @@ h1 {
     margin: 10px 0 0 0;
 }
 
-
-
 #title {
     text-align: center;
 }
@@ -104,17 +103,13 @@ h1 {
     height: auto;
 }
 
-form {
+#form1 {
     background-color: white;
     border-radius: 0 30px 30px 0;
     border-left: solid #f63443 0.3rem;
     width: 30%;
     padding: 0 10px;
     text-align: center;
-}
-
-form p {
-    font-family: "arial black"
 }
 
 #red {
@@ -164,15 +159,17 @@ label {
     text-decoration: underline;
 }
 
-footer {
-    display: flex;
-    background-color: black;
-    color: white;
-}
-
 /* ------------PARTIE BLOC 2 ----------- */
 #bloc2 {
     display: flex;
+}
+
+#bloc2 div {
+    width: 40%;
+}
+
+#bloc2 div img {
+    width: 100%;
 }
 
 /* ------------PARTIE BLOC 3 ----------- */
@@ -182,4 +179,29 @@ footer {
     width: 100%;
     display: flex;
     justify-content: space-around;
+}
+
+/* ------------PARTIE BLOC 4 ----------- */
+#bloc4 {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+#form2 {
+    color: white;
+    width: 70%;
+}
+
+#form2 input {
+    color: #2e2e2e;
+    font-style: italic;
+    padding-left: 10px;
+}
+
+/*------------PARTIE FOOTER -------------*/
+footer {
+    display: flex;
+    background-color: black;
+    color: white;
 }
