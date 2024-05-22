@@ -122,7 +122,9 @@ h1 {
     font-family: "arial black"
 }
 
-#adress {
+#adress,
+#store,
+#quantity {
     width: 100%;
 }
 
@@ -265,12 +267,13 @@ label {
 
 #design {
     width: 50%;
-    margin-left: 40px;
+    margin: 0 0 30px 40px;
+
 }
 
 #bloc3-design-title {
     display: flex;
-    margin-top: 40px;
+    margin: 40px 0 40px 0;
 }
 
 #new {
@@ -291,6 +294,7 @@ label {
 #bloc3-design-description p {
     font-size: 1.3em;
     margin: 0 0 15px 0;
+
 }
 
 #bloc3-design-description #red {
@@ -299,26 +303,54 @@ label {
 
 .title-bloc3 {
     font-family: "arial black";
-    font-size: 1.9em;
-    margin: 15px 0 0 0;
+    font-size: 2em;
+    margin: 0
 }
 
 /* ------------PARTIE BLOC 4 ----------- */
 #bloc4 {
-    background-color: black;
+    background-color: #2e2e2e;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
+    text-align: center;
 }
 
 #form2 {
     color: white;
     width: 70%;
+    margin: auto;
+}
+
+#form2 .form-item {
+    margin-bottom: 10px;
 }
 
 #form2 input {
     color: #2e2e2e;
     font-style: italic;
     padding-left: 10px;
+    border-radius: 5px;
+}
+
+.little2 {
+    width: 80%;
+    font-size: 0.8rem;
+    text-align: start;
+    margin: 20px auto;
+}
+
+#form2 #checkbox {
+    width: 3%;
+}
+
+#form2 label {
+    font-size: 0.8rem;
+    text-align: justify;
+    padding: 10px 0 0 10px;
+}
+
+#form2 #btn-promo {
+    margin-bottom: 40px;
 }
 
 /*------------PARTIE FOOTER -------------*/
