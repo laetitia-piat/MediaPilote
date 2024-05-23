@@ -160,6 +160,14 @@
         margin-left: 15px;
     }
 
+    .title-bloc3 {
+        font-size: 1.3em;
+    }
+
+    #bloc3 p {
+        font-size: 1em;
+    }
+
 
     #pointeur {
         left: 0px;

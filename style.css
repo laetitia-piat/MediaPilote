@@ -302,6 +302,7 @@ label {
 
 #bloc3-design-title {
     display: flex;
+    justify-content: flex-start;
     margin: 40px 0 40px 0;
 }
 
