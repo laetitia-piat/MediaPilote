@@ -453,3 +453,39 @@ footer {
     color: gray;
     text-decoration: underline;
 }
+
+/*----------------------RESPONSIVE----------------------- */
+@media screen and (max-width: 1024px) {
+    header {
+        height: 100px;
+    }
+
+    #safe {
+        max-width: 150px;
+        margin-right: 15px;
+    }
+
+    #by {
+        margin: 24px 0 0 0;
+        font-size: 1em;
+    }
+
+    #flex {
+        max-width: 70px;
+        margin-left: 15px;
+        margin-right: 50px;
+    }
+
+    #nav1,
+    #nav2 {
+        font-size: 1em;
+        padding: 0 10px 0 10px;
+    }
+
+    #btn-promo {
+        font-size: 1em;
+        padding: 5px 15px 5px 15px;
+        margin-left: 10px;
+
+    }
+}
