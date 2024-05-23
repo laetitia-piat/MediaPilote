@@ -152,6 +152,12 @@
         padding: 5px 20px;
     }
 
+    /* ----------PARTIE BLOC POP UP----------- */
+    #pop-up {
+        width: 70%;
+        top: 140vh;
+    }
+
     /* ------------PARTIE BLOC 3 ----------- */
     #price {
         width: 50%;
