@@ -260,14 +260,13 @@ label {
     padding: 10px;
 }
 
-#pop-up i {
+#pop-up img {
     position: absolute;
     top: -2px;
     right: -2px;
     font-size: 2rem;
-    width: 20px;
-    height: 20px;
-    color: black;
+    padding: 1rem;
+    color: grey;
 }
 
 /* ------------PARTIE BLOC 3 ----------- */
