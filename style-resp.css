@@ -149,6 +149,18 @@
         padding: 5px 20px;
     }
 
+    #price img {
+        max-width: 70px;
+        left: 10px;
+        top: 50px;
+    }
+
+    #new {
+        max-width: 50px;
+        margin-left: 15px;
+    }
+
+
     #pointeur {
         left: 0px;
     }
