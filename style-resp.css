@@ -147,6 +147,10 @@
         padding: 5px 20px;
     }
 
+    #price {
+        width: 70%;
+    }
+
     #price img {
         max-width: 70px;
         left: 10px;
@@ -158,8 +162,17 @@
         margin-left: 15px;
     }
 
+    #design {
+        width: 30%;
+        margin-bottom: 0;
+    }
+
     .title-bloc3 {
         font-size: 1.3em;
+    }
+
+    #bloc3 {
+        font-size: 60%;
     }
 
     #bloc3 p {

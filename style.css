@@ -276,9 +276,9 @@ label {
 
 /* ------------PARTIE BLOC 3 ----------- */
 #bloc3 {
-    background: url(images/VISUEL_SAFE_ON.png);
+    background: url(images/VISUEL_SAFE_ON.png) no-repeat;
     background-size: cover;
-    width: 100%;
+
     display: flex;
 }
 
