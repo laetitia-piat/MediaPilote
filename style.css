@@ -280,7 +280,7 @@ label {
 }
 
 #price {
-    max-width: 50%;
+    width: 50%;
 }
 
 #price img {
@@ -291,7 +291,7 @@ label {
 }
 
 #design {
-    max-width: 50%;
+    width: 50%;
     margin: 0 0 30px 40px;
 
 }
@@ -307,8 +307,8 @@ label {
 }
 
 #bloc3-design-description {
-    background: url(images/FOND_HEXAGONES.png) no-repeat;
-    background-size: contain;
+    background: url(images/FOND_HEXAGONES.png);
+    background-size: cover;
 }
 
 #bloc3-design-description hr {
@@ -457,7 +457,7 @@ footer {
 /*----------------------RESPONSIVE----------------------- */
 @media screen and (max-width: 1024px) {
     header {
-        height: 100px;
+        max-height: 100px;
     }
 
     #safe {
@@ -493,7 +493,7 @@ footer {
         background: url(images/VISUEL_SAFE_ON.png) no-repeat;
         background-size: contain;
         width: 100%;
-        font-size: 70%;
+        font-size: 60%;
     }
 
     #price img {
