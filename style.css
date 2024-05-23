@@ -276,15 +276,16 @@ label {
 
 /* ------------PARTIE BLOC 3 ----------- */
 #bloc3 {
-    background: url(images/VISUEL_SAFE_ON.png) no-repeat;
-    background-size: contain;
+
     font-size: 90%;
     display: flex;
     padding-bottom: 10px;
 }
 
 #price {
-    width: 50%;
+    background: url(images/VISUEL_SAFE_ON.png) no-repeat;
+    background-size: cover;
+    width: 60%;
 }
 
 #price img {
@@ -295,7 +296,7 @@ label {
 }
 
 #design {
-    width: 50%;
+    width: 40%;
     margin: 0 0 30px 40px;
 
 }

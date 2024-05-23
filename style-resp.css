@@ -125,6 +125,10 @@
     }
 
     /* ------------PARTIE BLOC PROMO----------- */
+    #promo {
+        padding: 0 5px 0 5px;
+    }
+
     #promo img {
         max-width: 150px;
     }
@@ -135,6 +139,7 @@
 
     .bloc2-div {
         width: 48%;
+        margin: 20px 0;
     }
 
 
@@ -239,6 +244,10 @@
     .bloc2-div p {
         width: 70%;
         margin: 15px auto;
+    }
+
+    .bloc2-button {
+        padding: 5px 10px;
     }
 
     #pop-up {
