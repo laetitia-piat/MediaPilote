@@ -250,13 +250,24 @@ label {
     position: fixed;
     top: 40vh;
     left: 50vh;
-    opacity: 0;
+    display: none;
     width: 50%;
     margin: auto;
     border: solid 0.2em #f63443;
-    background: url(images/FOND_SAFE_ON.jpg);
+    color: white;
+    background: linear-gradient(.25turn, #dc3e25, #f63443, #db0566);
     background-size: cover;
     padding: 10px;
+}
+
+#pop-up i {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    font-size: 2rem;
+    width: 20px;
+    height: 20px;
+    color: black;
 }
 
 /* ------------PARTIE BLOC 3 ----------- */
