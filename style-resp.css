@@ -64,7 +64,7 @@
 
     #pointeur {
         max-width: 15px;
-        left: 50px;
+
     }
 }
 
@@ -122,6 +122,8 @@
     #bloc2 p {
         font-size: 0.9em;
     }
+
+
 
     #link {
         flex-direction: column;
