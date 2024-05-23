@@ -159,7 +159,7 @@
 
     #new {
         max-width: 50px;
-        margin-left: 15px;
+        margin-left: 10px;
     }
 
     #design {
@@ -172,7 +172,7 @@
     }
 
     .title-bloc3 {
-        font-size: 1.1em;
+        font-size: 1em;
     }
 
     #bloc3 {
@@ -183,7 +183,6 @@
     #bloc3 p {
         font-size: 0.8em;
     }
-
 
     #pointeur {
         left: 0px;
