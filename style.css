@@ -488,4 +488,16 @@ footer {
         margin-left: 10px;
 
     }
+
+    footer {
+        font-size: 80%;
+    }
+
+    #flex-white {
+        max-width: 70px;
+    }
+
+    #pointeur {
+        max-width: 15px;
+    }
 }
