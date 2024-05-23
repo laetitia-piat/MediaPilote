@@ -120,7 +120,7 @@
         max-width: 100%;
         border-radius: 0 0 30px 30px;
         border-left: none;
-        border-top: solid #f63443 0.1rem;
+        border-top: solid #f63443 0.2rem;
         ;
     }
 
@@ -232,9 +232,17 @@
         margin-left: 10px;
     }
 
+    #bloc2 h2 {
+        font-size: 1em;
+    }
+
     .bloc2-div p {
         width: 70%;
         margin: 15px auto;
+    }
+
+    #pop-up {
+        top: 240vh;
     }
 
     #new {
