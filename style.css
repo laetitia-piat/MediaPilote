@@ -272,8 +272,8 @@ label {
 
 /* ------------PARTIE BLOC 3 ----------- */
 #bloc3 {
-    background: url(images/VISUEL_SAFE_ON.png);
-    background-size: cover;
+    background: url(images/VISUEL_SAFE_ON.png) no-repeat;
+    background-size: contain;
     max-width: 100%;
     display: flex;
     justify-content: space-around;
@@ -307,8 +307,8 @@ label {
 }
 
 #bloc3-design-description {
-    background: url(images/FOND_HEXAGONES.png);
-    background-size: cover;
+    background: url(images/FOND_HEXAGONES.png) no-repeat;
+    background-size: contain;
 }
 
 #bloc3-design-description hr {
@@ -492,6 +492,8 @@ footer {
     #bloc3 {
         background: url(images/VISUEL_SAFE_ON.png) no-repeat;
         background-size: contain;
+        width: 100%;
+        font-size: 70%;
     }
 
     #price img {
