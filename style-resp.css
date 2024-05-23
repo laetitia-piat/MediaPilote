@@ -184,6 +184,12 @@
         font-size: 0.8em;
     }
 
+    /* ------------PARTIE BLOC 4 ----------- */
+    #form2 {
+        width: 90%;
+    }
+
+
     #pointeur {
         left: 0px;
     }
@@ -193,6 +199,6 @@
     }
 
     footer {
-        font-size: 60%;
+        font-size: 50%;
     }
 }
