@@ -122,4 +122,8 @@
     #bloc2 p {
         font-size: 0.9em;
     }
+
+    #link {
+        flex-direction: column;
+    }
 }
