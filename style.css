@@ -489,6 +489,21 @@ footer {
 
     }
 
+    #bloc3 {
+        background: url(images/VISUEL_SAFE_ON.png) no-repeat;
+        background-size: contain;
+    }
+
+    #price img {
+        max-width: 100px;
+
+    }
+
+    #new {
+        max-width: 70px;
+        margin-left: 20px;
+    }
+
     footer {
         font-size: 80%;
     }
