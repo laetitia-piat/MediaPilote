@@ -278,9 +278,8 @@ label {
 #bloc3 {
     background: url(images/VISUEL_SAFE_ON.png);
     background-size: cover;
-    max-width: 100%;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
 }
 
 #price {
