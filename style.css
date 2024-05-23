@@ -523,3 +523,23 @@ footer {
         max-width: 15px;
     }
 }
+
+@media screen and (max-width: 834px) {
+    #video-form {
+        flex-direction: column;
+    }
+
+    #video-bloc {
+        max-width: 100%;
+        border-radius: 30px 30px 0 0;
+        margin: 0;
+    }
+
+    #form1 {
+        max-width: 100%;
+        border-radius: 0 0 30px 30px;
+        border-left: none;
+        border-top: solid #f63443 0.1rem;
+        ;
+    }
+}
