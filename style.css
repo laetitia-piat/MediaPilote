@@ -254,8 +254,6 @@ label {
 #pop-up {
     position: absolute;
     top: 190vh;
-    /* top: 40vh;
-    left: 50vh; */
     display: none;
     width: 50%;
     border: solid 0.2em #f63443;

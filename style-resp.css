@@ -220,8 +220,24 @@
 }
 
 @media screen and (max-width: 480px) {
+    header {
+        font-size: 80%;
+    }
+
     #flex {
         margin: 0 10px 0 5px;
+    }
+
+    h1 {
+        font-size: 1.9em;
+    }
+
+    #promo img {
+        max-width: 100px;
+    }
+
+    #promo {
+        font-size: 70%;
     }
 
     #btn-promo {
