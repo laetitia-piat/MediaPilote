@@ -67,7 +67,12 @@ nav {
     border: none;
     padding: 10px 25px 10px 25px;
     margin-left: 15px;
+}
 
+#btn-promo:hover {
+    color: #f63443;
+    background-color: white;
+    border: solid #f63443 0.1em;
 }
 
 /* ------------PARTIE BLOC 1 ----------- */
@@ -248,6 +253,11 @@ label {
     border: solid 0.1em #f63443;
     margin-bottom: 30px;
     padding: 10px 40px;
+}
+
+.bloc2-button:hover {
+    color: white;
+    background-color: #f63443;
 }
 
 /* ----------PARTIE BLOC POP UP----------- */
