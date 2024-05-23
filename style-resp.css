@@ -219,6 +219,11 @@
 }
 
 @media screen and (max-width: 480px) {
+    .bloc2-div p {
+        width: 70%;
+        margin: 15px auto;
+    }
+
     #new {
         max-width: 30px;
         margin-left: 10px;
