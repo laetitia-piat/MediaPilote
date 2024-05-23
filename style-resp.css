@@ -64,7 +64,6 @@
 
     #pointeur {
         max-width: 15px;
-
     }
 }
 
@@ -127,7 +126,11 @@
         left: 0px;
     }
 
-    #link {
-        flex-direction: column;
+    #link img {
+        max-width: 15px;
+    }
+
+    footer {
+        font-size: 60%;
     }
 }
