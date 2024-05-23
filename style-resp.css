@@ -190,6 +190,10 @@
     }
 
     /*------------PARTIE FOOTER -------------*/
+    #flex-white {
+        max-width: 50px;
+    }
+
     #pointeur {
         left: 30px;
     }
