@@ -276,10 +276,7 @@ label {
 
 /* ------------PARTIE BLOC 3 ----------- */
 #bloc3 {
-
-    font-size: 90%;
     display: flex;
-    padding-bottom: 10px;
 }
 
 #price {
