@@ -37,7 +37,6 @@
 
     /* ------------PARTIE BLOC 3 ----------- */
     #bloc3 {
-        width: 100%;
         font-size: 60%;
     }
 
@@ -216,5 +215,16 @@
 
     footer {
         font-size: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #new {
+        max-width: 30px;
+        margin-left: 10px;
+    }
+
+    #safe {
+        max-width: 70px;
     }
 }
