@@ -54,6 +54,7 @@
         max-width: 70px;
     }
 
+    /* ------------PARTIE FOOTER ----------- */
     footer {
         font-size: 80%;
     }
@@ -163,10 +164,6 @@
     }
 
     /* ------------PARTIE BLOC 3 ----------- */
-    #price {
-        width: 50%;
-    }
-
     #price img {
         max-width: 70px;
         left: 10px;
@@ -179,7 +176,6 @@
     }
 
     #design {
-        width: 50%;
         margin: 0 0 0 0;
     }
 
@@ -192,7 +188,6 @@
     }
 
     #bloc3 {
-        background-size: contain;
         font-size: 60%;
     }
 
@@ -207,8 +202,6 @@
     }
 
     /*------------PARTIE FOOTER -------------*/
-
-
     #flex-white {
         max-width: 50px;
     }
