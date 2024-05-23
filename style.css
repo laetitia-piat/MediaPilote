@@ -497,6 +497,11 @@ footer {
         font-size: 60%;
     }
 
+    #bloc3-design-title {
+        display: flex;
+        margin: 20px 0 20px 0;
+    }
+
     #price img {
         max-width: 100px;
 
@@ -504,7 +509,6 @@ footer {
 
     #new {
         max-width: 70px;
-        margin-left: 20px;
     }
 
     footer {
