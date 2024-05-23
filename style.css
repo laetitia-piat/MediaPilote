@@ -309,6 +309,7 @@ label {
 #bloc3-design-description {
     background: url(images/FOND_HEXAGONES.png);
     background-size: cover;
+    padding-bottom: 30px;
 }
 
 #bloc3-design-description hr {
