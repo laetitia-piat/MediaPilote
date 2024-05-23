@@ -211,7 +211,7 @@ label {
     justify-content: space-evenly;
 }
 
-#bloc2-div {
+.bloc2-div {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -226,12 +226,12 @@ label {
     font-size: 2em;
 }
 
-#bloc2-div img {
+.bloc2-div img {
     width: 80%;
     margin: 30px 0;
 }
 
-#bloc2-div p {
+.bloc2-div p {
     width: 55%;
     margin: 40px auto;
     color: #2e2e2e;
