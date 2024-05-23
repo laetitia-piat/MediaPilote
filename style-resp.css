@@ -167,16 +167,21 @@
         margin-bottom: 0;
     }
 
+    #bloc3-design-title {
+        margin: 10px 0 10px 0;
+    }
+
     .title-bloc3 {
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
 
     #bloc3 {
+        background-size: contain;
         font-size: 60%;
     }
 
     #bloc3 p {
-        font-size: 1em;
+        font-size: 0.8em;
     }
 
 
