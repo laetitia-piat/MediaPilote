@@ -252,12 +252,12 @@ label {
 
 /* ----------PARTIE BLOC POP UP----------- */
 #pop-up {
-    position: fixed;
-    top: 40vh;
-    left: 50vh;
+    position: absolute;
+    top: 200vh;
+    /* top: 40vh;
+    left: 50vh; */
     display: none;
     width: 50%;
-    margin: auto;
     border: solid 0.2em #f63443;
     color: white;
     background: linear-gradient(.25turn, #dc3e25, #f63443, #db0566);
