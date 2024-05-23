@@ -253,7 +253,7 @@ label {
 /* ----------PARTIE BLOC POP UP----------- */
 #pop-up {
     position: absolute;
-    top: 200vh;
+    top: 190vh;
     /* top: 40vh;
     left: 50vh; */
     display: none;
