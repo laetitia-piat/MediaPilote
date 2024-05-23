@@ -10,7 +10,7 @@ body {
 a {
     text-decoration: none;
     color: black;
-    display: flex;
+
 }
 
 /* ------------PARTIE HEADER----------- */
@@ -41,6 +41,10 @@ header {
 nav {
     display: flex;
     align-items: center;
+}
+
+#nav-flex {
+    display: flex;
 }
 
 #nav1,
@@ -525,6 +529,26 @@ footer {
 }
 
 @media screen and (max-width: 834px) {
+    #safe {
+        max-width: 100px;
+        margin-right: 5px;
+    }
+
+    #nav-flex {
+        flex-direction: column;
+    }
+
+    #nav1,
+    #nav2 {
+        margin: 5px 0 5px 0;
+    }
+
+    #nav2 {
+        border-left: none;
+        border-top: solid 0.1em black;
+        padding-top: 10px;
+    }
+
     #video-form {
         flex-direction: column;
     }
